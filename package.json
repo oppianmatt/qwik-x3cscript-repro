@@ -1,0 +1,17 @@
+{
+  "name": "qwik-x3cscript-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal Qwik 1.20.4 repro for the x3Cscript state bug",
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@builder.io/qwik": "1.20.4"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
